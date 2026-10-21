@@ -1,5 +1,5 @@
 module piso(q,d,clk,rst,load);
-output reg q;
+output q;
 input [3:0]d;
 input clk,rst,load;
 reg [3:0]temp;
